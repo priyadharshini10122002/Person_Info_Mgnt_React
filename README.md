@@ -12,7 +12,7 @@ Person Info Management is a web application built using React to manage and orga
 -  Responsive Design: Styled for a clean and accessible interface.
 
 # Technologies Used
-.  React.js: Frontend framework.
-.  CSS: For styling the user interface.
-.  JavaScript (ES6): Core logic implementation.
-.  HTML5: Markup structure.
+-  React.js: Frontend framework.
+-  CSS: For styling the user interface.
+-  JavaScript (ES6): Core logic implementation.
+-  HTML5: Markup structure.
