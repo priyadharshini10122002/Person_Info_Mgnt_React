@@ -1,0 +1,77 @@
+/* DataCard container styling */
+.DataCard {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #4caf50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  width: 100%; /* Make the card wider */
+  max-width: 1000px; /* Set a max width for large screens */
+  margin-left: 0; /* Align the card to the left */
+  /* Center it within its container if needed */
+}
+
+/* Remove default list styling */
+ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+/* List item styling inside the card */
+.DataItem {
+  padding: 10px; /* Increase padding for better spacing */
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 18px; /* Increase font size */
+}
+
+/* Remove the border from the last item */
+.DataItem:last-child {
+  border-bottom: none;
+}
+
+/* Button container styling */
+.ButtonContainer {
+  display: flex;
+  gap: 30px; /* Increase gap between buttons */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  justify-content: flex-start; /* Align buttons to the left */
+}
+
+/* Common button styling */
+.EditButton,
+.DeleteButton {
+  padding: 12px 20px; /* Increase button padding */
+  font-family: "Arial", sans-serif;
+  font-size: 16px; /* Increase font size */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Edit button styling */
+.EditButton {
+  background-color: grey; /* Solid grey color */
+  color: white; /* Ensure the text is visible */
+}
+
+/* Delete button styling */
+.DeleteButton {
+  background-color: grey; /* Solid grey color */
+  color: white; /* Ensure the text is visible */
+}
+
+/* Hover effect for Edit button */
+.EditButton:hover {
+  background-color: black; /* Change to black on hover */
+}
+
+/* Hover effect for Delete button */
+.DeleteButton:hover {
+  background-color: black; /* Change to black on hover */
+}

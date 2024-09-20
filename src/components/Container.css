@@ -1,0 +1,8 @@
+/* Container.css */
+
+/* Container styling */
+.Container {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}

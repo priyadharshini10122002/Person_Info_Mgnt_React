@@ -1,0 +1,69 @@
+/* UserInput.css */
+
+/* Form container styling */
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form content */
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form field container styling */
+div.field-container {
+  display: flex; /* Align label and input horizontally */
+  align-items: center; /* Align items vertically */
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #555;
+  width: 150px; /* Fixed width for labels */
+  margin-right: 10px; /* Space between label and input */
+  text-align: right; /* Align text to the right for labels */
+}
+
+/* Input field styling */
+input[type="text"] {
+  width: calc(100% - 160px); /* Adjust width to fill remaining space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
